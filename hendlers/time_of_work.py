@@ -5,7 +5,7 @@ from app import btnTime
 
 @dp.message_handler(text=btnTime)
 async def time(message: types.Message):
-    await bot.send_photo(message.from_user.id, types.InputFile(""))
+    await bot.send_photo(message.from_user.id, types.InputFile("/home/mekan/fish_bot/photo_2022-03-30 19.21.56.jpeg"))
     await message.answer("Адрес:\n"
                          "Держинского 6 Б\n"
                          "\n"
